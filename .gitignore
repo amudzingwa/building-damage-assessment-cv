@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+*.log
+# Large and potentially licensed datasets; keep only scripts and small metadata if approved.
+data/
+patches/
+results/
+*.tif
+*.tiff
+*.npy
+*.pt
+*.pth
+*.onnx
+*.tar.gz
+*.csv
+*.jsonl
+wandb/
